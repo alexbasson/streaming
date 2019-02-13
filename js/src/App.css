@@ -1,0 +1,58 @@
+body {
+  margin: 0 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.btn {
+  height: 50px;
+  width: 180px;
+  border-radius: 6px;
+  font-size: 18px;
+  color: white;
+}
+
+.btn-primary {
+  background-color: blue;
+}
+
+.btn-secondary {
+  background-color: red;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.col1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.col2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.col3 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+.col4 {
+  grid-column-start: 4;
+  grid-column-end: 4;
+}
